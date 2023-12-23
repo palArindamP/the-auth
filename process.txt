@@ -1,0 +1,25 @@
+PS C:\Users\arindam\Desktop\the-auth> npm create vite@latest client
+√ Select a framework: » React
+√ Select a variant: » JavaScript + SWC
+PS C:\Users\arindam\Desktop\the-auth\client> npm install
+GO TO IN CROME ANS SEARCH:- tailwind css vite THEN-
+PS C:\Users\arindam\Desktop\the-auth\client> npm install -D tailwindcss postcss autoprefixer
+PS C:\Users\arindam\Desktop\the-auth\client> npx tailwindcss init -p    >>> IT CREATES A NEW FILE NAMED tailwind.config.js
+
+CHANGE THE FILE CONTAINES NAMED tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+CHANGE THE FILE CONTAINES NAMED index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
